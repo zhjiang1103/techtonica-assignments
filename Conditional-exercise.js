@@ -163,28 +163,30 @@ function exercise1(num1) {
   // "Thanks for that!"
   
   function exercise7(num7) {
-    let answer7;
-    // --------------------------------------------
-    // Write your code for the exercise below here:
-    // --------------------------------------------
-    switch(answer7){
-        case num7===1 : answer7="You won!";
-        break;
-        case num7===7 : answer7="You are lucky!";
-        break;
-        case num7===101 : answer7="Welcome to coding 101!";
-        break;
-        case num7===1000000 : answer7="You are one in a million!";
-        break;
-        default: answer7="Thanks for that!";
-    }
-    // --------------------------------------------
-    // And above here
-    // --------------------------------------------
-    return answer7;
+  let answer7;
+  // --------------------------------------------
+  // Write your code for the exercise below here:
+  // --------------------------------------------
+  switch (num7) {
+    case 1: answer7 = "You won!";
+      break;
+    case 7: answer7 = "You are lucky!";
+      break;
+    case 101: answer7 = "Welcome to coding 101!";
+      break;
+    case 1000000: answer7 = "You are one in a million!";
+      break;
+    default: answer7 = "Thanks for that!";
   }
+  // --------------------------------------------
+  // And above here
+  // --------------------------------------------
+  return answer7;
+}
   
-  // EXERCISE 8.
+
+
+// EXERCISE 8.
   // Using any conditional assign the value of true to answer8 if:
   // the values of amount1 and amount2 are between the values of
   // minimum and maximum
