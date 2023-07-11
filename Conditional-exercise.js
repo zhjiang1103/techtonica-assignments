@@ -197,7 +197,7 @@ function exercise1(num1) {
     // Write your code for the exercise below here:
     // --------------------------------------------
 
-    if (amount1 >= minimum && amount1 <= maximum && amount2 >= minimum && amount2 <= maximum) {
+    if (amount1 > minimum && amount1 < maximum && amount2 > minimum && amount2 < maximum) {
         answer8 = true;
     } else {
         answer8 = false;
