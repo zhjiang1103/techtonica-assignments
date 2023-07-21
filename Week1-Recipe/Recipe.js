@@ -11,6 +11,10 @@
   <div>
       <image src="https://www.justonecookbook.com/wp-content/uploads/2021/01/Classic-Mentaiko-Pasta-3629-II.jpg" alt="Mentaiko Spaghetti" width="600" height="600">
      </div>
+     <div class="left"> 
+    <div>
+      <image src="https://www.justonecookbook.com/wp-content/uploads/2021/01/Classic-Mentaiko-Pasta-3629-II.jpg" alt="Mentaiko Spaghetti" width="600" height="600">
+     </div>
      <div>
         <h2>The Ingredients You’ll Need</h2>
         <ul>
@@ -24,6 +28,7 @@
           <li>Toppings: shredded nori seaweed (kizami nori) and shiso leaves (perilla/ooba)</li>
         </ul>
       </div>
+    </div>    
  
   </body>
   </html>
