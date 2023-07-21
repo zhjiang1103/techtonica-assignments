@@ -29,6 +29,22 @@
         </ul>
       </div>
     </div>    
- 
+    <div class="right">  
+     <div>
+        <h2>Cooking Steps</h2>
+        <ol>
+          <li>Boil the spaghetti according to the cooking instructions.</li>
+          <li>Make the mentaiko sauce by combining the ingredients.</li>
+          <li>Mix the spaghetti and sauce together. Serve the spaghetti with nori and shiso leaves on top.</li>
+        </ol>
+     </div>
+      <div>
+        <h2>Similar Recipes</h2>
+        <ul>
+          <li><a href="https://cooking.nytimes.com/recipes/1024292-classic-mentaiko-spaghetti">Classic Mentaiko Spaghetti</a></li>
+         <li><a href="https://www.justonecookbook.com/classic-mentaiko-pasta/">Classic Mentaiko Pasta</a></li>
+       </ul>
+      </div>
+    </div>
   </body>
   </html>
