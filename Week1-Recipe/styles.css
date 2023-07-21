@@ -21,3 +21,8 @@ h1,h2{
   float: left;
   width: 600px;
 }
+
+.right{
+  float: right;
+  width: 600px
+}
