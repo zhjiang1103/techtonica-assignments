@@ -12,3 +12,12 @@ h1,h2{
   font-family: 'Tektur', cursive;
 }
 
+.description{
+  width: 600px;
+  
+}
+
+.left{
+  float: left;
+  width: 600px;
+}
