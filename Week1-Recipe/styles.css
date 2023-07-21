@@ -8,5 +8,7 @@ body {
 }
 
 h1,h2{
-  color: blueviolet
+  color: blueviolet;
+  font-family: 'Tektur', cursive;
 }
+
