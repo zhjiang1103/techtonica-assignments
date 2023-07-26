@@ -23,6 +23,6 @@ h1,h2{
 }
 
 .right{
-  float: right;
+  float: left;
   width: 600px
 }
