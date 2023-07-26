@@ -1,0 +1,28 @@
+p {
+  color: blue;
+}
+
+
+body {
+    background-color:#FFBD33;
+}
+
+h1,h2{
+  color: blueviolet;
+  font-family: 'Tektur', cursive;
+}
+
+.description{
+  width: 600px;
+  
+}
+
+.left{
+  float: left;
+  width: 600px;
+}
+
+.right{
+  float: left;
+  width: 600px
+}
