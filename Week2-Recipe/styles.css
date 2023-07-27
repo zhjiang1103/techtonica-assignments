@@ -26,3 +26,7 @@ h1,h2{
   float: left;
   width: 600px
 }
+
+.checked{
+    text-decoration: line-through;
+}
