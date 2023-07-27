@@ -26,3 +26,8 @@ for (let i = 0; i < listItems.length; i++) {
 }
 
 
+//Adding strikethrough when someone clicks an element
+//1. select element to add the classname to
+const ulElement = document.getElementById("myList").getElementsByTagName("ul");
+// 2: Add a className to the selected element using the classList.add() method
+ulElement.classList.add("checked"); 
