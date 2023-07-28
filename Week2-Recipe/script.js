@@ -47,7 +47,7 @@ for (let i = 0; i < ingredientList.length; i++) {
 
 
 const stepList = document.getElementById("steps").getElementsByTagName("li")
-//console.log(stepList);
+
 for (let i=0; i<stepList.length; i++){
     
     stepList[i].addEventListener("click",(e)=>{
