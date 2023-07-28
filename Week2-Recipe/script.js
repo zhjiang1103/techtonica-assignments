@@ -36,7 +36,7 @@ for (let i = 0; i < ingredientList.length; i++) {
             li.prepend(newLabel);
             ul.appendChild(li);
     
-
+//Adding strikethrough to ingredients
     li.addEventListener("click",(e)=>{
         console.log(e.target);
         if (e.target.className =="checked"){
