@@ -39,6 +39,7 @@ for (let i = 0; i < ingredientList.length; i++) {
 //Adding strikethrough to ingredients
     li.addEventListener("click",(e)=>{
         console.log(e.target);
+        //Check if the list has been checked
         if (e.target.className =="checked"){
             e.target.className="";
         }
