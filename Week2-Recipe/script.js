@@ -35,13 +35,28 @@ for (let i = 0; i < ingredientList.length; i++) {
             newLabel.prepend(CheckboxInput);
             li.prepend(newLabel);
             ul.appendChild(li);
+    
+
+    li.addEventListener("click",(e)=>{
+        console.log(e.target);
+        if (e.target.className =="checked"){
+            e.target.className="";
+        }
+        else {e.target.className="checked";}})
 }
 
 
+const stepList = document.getElementById("steps").getElementsByTagName("li")
+//console.log(stepList);
+for (let i=0; i<stepList.length; i++){
+    
+    stepList[i].addEventListener("click",(e)=>{
+        if (e.target.className =="checked"){
+            e.target.className="";
+        }
+        else {e.target.className="checked";}
 
-//Adding strikethrough when someone clicks an element
-//1. select element to add the classname to
-//const ulElement = document.getElementById("myList")
-// 2: Add a className to the selected element using the classList.add() method
-//ulElement.classList.add("checked"); 
-//addEventListener
+
+})
+}
+
