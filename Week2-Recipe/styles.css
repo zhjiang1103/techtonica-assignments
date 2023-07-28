@@ -30,3 +30,13 @@ h1,h2{
 .checked{
     text-decoration: line-through;
 }
+
+img {
+    width: 100%;
+  }
+  
+  @media(max-width: 1080px) {
+    img {
+        width: 50%;
+      }
+  }
