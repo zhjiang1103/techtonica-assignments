@@ -1,11 +1,16 @@
 #button{
     width: 30%;
-    margin: 20%;
+    margin: 10%;
     padding: 5%;
 }
+#pictureContainer {
+    display: none; /* Hide the picture container initially */
+    margin-top: 20px;
+    margin-right: 20px;
+}
 
-img{
-    width:25%
+#pictureContainer img{
+    width:20%
 }
 
 input{
