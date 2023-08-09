@@ -18,8 +18,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-document.addEventListener("click",(event)=>{
-event.preventDefault()
+    const form = document.getElementById("form");
+    const submitButton = document.getElementById("submit");
+  
+    form.addEventListener("submit", (event) => {
+      event.preventDefault(); // Prevent the form from submitting
+  
+      compareResult();
+    });
+  
+    
+   
 
-}
-)
+  
