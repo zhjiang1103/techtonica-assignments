@@ -26,8 +26,15 @@ document.addEventListener("DOMContentLoaded", () => {
   
       compareResult();
     });
-  
+
+  let input = document.getElementById("guess").value;
     
-   
+    function compareResult() {
+      let coinFlip = Math.round(Math.random());
+      if (input=="Tail"){let userGuess=0 }
+      if (input=="Head"){let userGuess=1}
+      else {return "Please enter valid guess:(Tail/Head)"}
+    }
+  
 
   
