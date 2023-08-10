@@ -14,27 +14,38 @@ document.addEventListener("DOMContentLoaded", () => {
         pictureContainer.appendChild(picture);
       }
     });
-  });
+  })
 
-
-
+  document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("form");
     const submitButton = document.getElementById("submit");
-  
-    form.addEventListener("submit", (event) => {
+    
+  function compareResult() {
+    let input = document.getElementById("guess").value;
+    let coinFlip = Math.round(Math.random());
+    let userGuess; 
+    if (input==="Tail" || input==="tail"){ userGuess=0 }
+    else if (input==="Head" || input==="head"){ userGuess=1}
+    else {console.error("Please enter a valid guess: (Tail/Head)");
+    return; // Exit the function if input is not valid}
+    }
+    console.log(input)
+  console.log(coinFlip)
+  console.log(userGuess)
+  }
+    
+  form.addEventListener("submit", (event) => {
+      
       event.preventDefault(); // Prevent the form from submitting
   
       compareResult();
     });
+})
 
-  let input = document.getElementById("guess").value;
+  
+  
+   
     
-    function compareResult() {
-      let coinFlip = Math.round(Math.random());
-      if (input=="Tail"){let userGuess=0 }
-      if (input=="Head"){let userGuess=1}
-      else {return "Please enter valid guess:(Tail/Head)"}
-    }
   
 
   
