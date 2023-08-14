@@ -4,7 +4,7 @@
     padding: 5%;
 }
 #pictureContainer {
-    display: none; /* Hide the picture container initially */
+    /*display: none;  Hide the picture container initially */
     margin-top: 20px;
     margin-right: 20px;
 }
