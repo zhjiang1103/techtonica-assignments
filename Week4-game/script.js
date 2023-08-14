@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const pictureContainer = document.getElementById("pictureContainer");
   
     Button.addEventListener("click", () => {
-      // Toggle the visibility of the picture container
+      // Toggle the visibility of the picture container: checking condition if not=="block"
       pictureContainer.style.display = pictureContainer.style.display !== "block" ? "block" : "none";
   
       
