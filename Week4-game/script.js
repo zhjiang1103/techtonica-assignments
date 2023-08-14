@@ -26,9 +26,9 @@ document.addEventListener("DOMContentLoaded", () => {
     else {errorMessage.innerHTML="Please enter a valid guess: (Tail/Head)";
       return; // Exit the function if input is not valid}
     }
-    console.log(input)
-  console.log(coinFlip)
-  console.log(userGuess)
+  //   console.log(input)
+  // console.log(coinFlip)
+  // console.log(userGuess)
   if (userGuess === coinFlip){
     winMessage.innerHTML = "Congradulations! Your guess was correct."
   }
