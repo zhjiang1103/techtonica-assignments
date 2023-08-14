@@ -5,6 +5,7 @@
 }
 #pictureContainer {
     /*display: none;  Hide the picture container initially */
+    /*JS can not catch the initial picture display style*/
     margin-top: 20px;
     margin-right: 20px;
 }
