@@ -1,0 +1,19 @@
+#button{
+    width: 30%;
+    margin: 10%;
+    padding: 5%;
+}
+#pictureContainer {
+    /*display: none;  Hide the picture container initially */
+    /*JS can not catch the initial picture display style*/
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#pictureContainer img{
+    width:20%
+}
+
+input{
+    width:25%
+}
