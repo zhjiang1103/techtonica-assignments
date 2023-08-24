@@ -49,6 +49,7 @@ app.put('/items/:id', (req, res) => {
     }
   });
 
+  //Delete
   app.delete('/items/:id', (req, res) => {
     const id = req.params.id;//const { id } = req.params;
     const index = books.findIndex(book => book.id === id);
