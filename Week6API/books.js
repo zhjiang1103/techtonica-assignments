@@ -1,65 +1,65 @@
 const books = [{
-    "isbn": "0553120441",
+    "id": "1",
     "title": "Harry Potter and the Sorcerer's Stone",
     "author": "J.K. Rowling",
     "format": "Paperback"
 },
 {
-    "isbn": "0679889175",
+    "id": "2",
     "title": "Harry Potter and the Chamber of Secrets",
     "author": "J.K. Rowling",
     "format": "Paperback"
 },
 {
-    "isbn": "9780857660282",
+    "id": "3",
     "title": "Harry Potter and the Prisoner of Azkaban",
     "author": "J.K. Rowling",
     "format": "Paperback"
 },
 {
-    "isbn": "0553096095",
+    "id": "4",
     "title": "Harry Potter and the Goblet of Fire",
     "author": "J.K. Rowling",
     "format": "Hardcover"
 },
 {
-    "isbn": "05530962356",
+    "id": "5",
     "title": "Harry Potter and the Order of the Phoenix",
     "author": "J.K. Rowling",
     "format": "Hardcover"
 },
 {
-    "isbn": "0553098976",
+    "id": "6",
     "title": "Harry Potter and the Half-Blood Prince",
     "author": "J.K. Rowling",
     "format": "Hardcover"
 },
 {
-    "isbn": "0553093476",
+    "id": "7",
     "title": "Harry Potter and the Deathly Hallows",
     "author": "J.K. Rowling",
     "format": "Hardcover"
 },
 {
-    "isbn": "0553115634",
+    "id": "8",
     "title": "A Court of Thorns and Roses",
     "author": "Sarah J. Maas",
     "format": "Hardcover"
 },
 {
-    "isbn": "0553115765",
+    "id": "9",
     "title": "A Court of Mist and Fury",
     "author": "Sarah J. Maas",
     "format": "Hardcover"
 },
 {
-    "isbn": "05531324567",
+    "id": "10",
     "title": "A Court of Wings and Ruin",
     "author": "Sarah J. Maas",
     "format": "Hardcover"
 },
 {
-    "isbn": "05531324511",
+    "id": "11",
     "title": "A Court of Silver Flames",
     "author": "Sarah J. Maas",
     "format": "Hardcover"

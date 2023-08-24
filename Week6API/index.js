@@ -25,6 +25,42 @@ app.get('/books', (req, res) => {
     res.json(books);
   });
 
+  // Create (C)
+app.post('/items', (req, res) => {
+    const newItem = req.body;
+    books.push(newItem);
+    console.log(books);
+    res.status(201).json(newItem);
+  });
 
+  // Update (U)
+app.put('/items/:id', (req, res) => {
+    console.log("Hey");
+    const id = req.params.id;//const { id } = req.params;
+    console.log(id);
+    const updatedItem = req.body;
+    const book = books.find(book => book.id === id);
+    if (book) {
+        book.title = updatedItem.title;
+        book.author = updatedItem.author;
+        res.send("Updated Sucessfully")
+    } else {
+        res.status(404).json({ message: 'Book not found' });
+    }
+  });
+
+  app.delete('/items/:id', (req, res) => {
+    const id = req.params.id;//const { id } = req.params;
+    const index = books.findIndex(book => book.id === id);
+    if(index !== -1){
+        books.splice(index,1)
+        res.send("Delete Sucessfully")
+    } else {
+        res.status(404).json({ message: 'Book not found' });
+    }
+  });
+
+
+  
 
 app.listen(PORT, () => console.log(`Server running on Port http://localhost:${PORT}`));
