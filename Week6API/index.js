@@ -17,6 +17,7 @@ app.use(cors());
 // Use JSON parsing middleware
 app.use(bodyParser.json());
 
+//Read
 app.get('/', (req, res) => {
     res.send("Hello, welcome to Janet's Book Library")
     });
